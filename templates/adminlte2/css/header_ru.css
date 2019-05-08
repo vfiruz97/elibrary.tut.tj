@@ -1,0 +1,20 @@
+/* Шапкп сайта*/
+@media screen and (min-width: 768px) {
+.navbar {
+	margin-bottom: 10px !important;
+	border-top-right-radius:15px !important;
+	box-shadow: 10px 10px 5px #5496e0;
+	-moz-box-shadow: 1px 2px 4px #5496e0;
+    -webkit-box-shadow: 1px 2px 4px #5496e0;
+    
+    background-image: url(header_ru.gif);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100% 100%;
+	
+}
+}

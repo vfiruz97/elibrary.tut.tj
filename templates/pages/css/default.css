@@ -1,0 +1,132 @@
+.alert ul {
+    padding-left: 10px;
+}
+
+.dropdown.user.user-menu .fa-user-circle-o {
+    color: #fff;
+}
+.dropdown-menu.icon-menu > li > a {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.sidebar-menu > li > a {
+    padding-left: 12px;
+}
+.sidebar-menu > li > a > .fa {
+    width: 24px;
+}
+
+.filtered-table .filter {
+    width: 100%;
+}
+
+.info-table td:first-child {
+    font-weight: bold;
+}
+
+.modal .modal-content table {
+    margin-bottom: 0;
+}
+
+.dataTable tr.details:hover {
+    background-color: #fff;
+}
+
+.input-group.date {
+    width: 200px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Refs */
+/* Districts */
+#create-district-form .total-area,
+#update-district-form .total-area {
+    width: 160px;
+}
+
+/* Cost of water */
+#cost-of-water-form .created-at-wrapper,
+#cost-of-water-form .cost-of-water {
+    width: 160px;
+}
+
+/* Water consumption */
+.water-consumption-form .capacity {
+    width: 400px;
+}
+.water-consumption-form .cost,
+.water-consumption-form .total-cost {
+    width: 140px;
+}
+
+/* Acts */
+.act-form .capacity {
+    width: 400px;
+}
+.act-form .cost,
+.act-form .total-cost {
+    width: 140px;
+}
+
+/* Payments */
+.payment-form .amount {
+    width: 140px;
+}
+
+/* Debts */
+.debt-form .amount {
+    width: 140px;
+}
+
+/* Planned membership fee */
+.planned-membership-fee-form .amount {
+    width: 140px;
+}
+
+/* Received membership fee */
+.received-membership-fee-form .amount {
+    width: 140px;
+}
+
+/* Spent membership fee */
+.spent-membership-fee-form .amount {
+    width: 140px;
+}
+
+/* Reports */
+.report-table tr, td, th {
+    position: relative;
+}
+.report-table .vertical-aligned {
+    transform-origin: 0 50%;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.report-table thead tr th {
+    vertical-align: top;
+}
+.report-table thead tr.colored th {
+    background-color: #036;
+    font-weight: normal;
+    color: #f5f5f5;
+}
+.report-table thead tr.muted th,
+.report-table thead tr.colored th.muted {
+    background-color: #ccc;
+    color: #333;
+}
+/* Quarterly report */
+#quarterly-report-table thead tr th {
+    border-bottom-width: 0;
+}
+#quarterly-report-table .fixed {
+    z-index: 999;
+}

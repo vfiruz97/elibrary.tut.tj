@@ -1,0 +1,7 @@
+/.idea/
+/nbproject/private/
+
+.htaccess
+
+composer.phar
+composer.lock
